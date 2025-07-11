@@ -15,5 +15,9 @@ Start a container with the docker image in detached (-d) mode and mapping a host
 ```
 docker run <image_name>
 ```
+> Tip: add -rm to the run command automatically remove the stopped container after it has executed the script e.g.
+```
+docker run -rm <image_name>
+```
+
 When running the container, the output shows the processed data.
-___
